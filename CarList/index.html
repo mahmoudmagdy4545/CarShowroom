@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Car Sales</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+  <header>
+    <div class="nav container">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <a href="#" class="logo">Car<span>Sales</span></a>
+      <ul class="navbar">
+        <li> <a href="../Home/index.html">Home</a></li>
+        <li> <a href="../CarList/index.html"class="active">Cars</a></li>
+          <li> <a href="../parts/index.html">Parts</a></li>
+        <li> <a href="../AboutUs/index.html">About</a></li>
+      
+        <li> <a href="../ContactUs/index.html">Our Blog</a></li>
+    </ul>
+      <i class='bx bx-search' id="search-icon"></i>
+      <div class="search-box container">
+        <input type="search" id="searchInput" placeholder="Search here..." />
+      </div>
+      <div class="loginBtn"><button type="submit" onclick="{window.location='../Login/index.php'}">Login</button></div>
+    </div>
+  </header>
+
+  <section class="cars" id="cars">
+    <div class="heading">
+      <span><h1>All Cars</h1></span>
+      <h2>We have all types of cars</h2>
+      <p>Your one-stop shop for premium auto services, and performance<br>
+        upgrades. and excellence like never before.</p>
+    </div>
+
+    <div class="categories">
+<button  value="All" class="All">All</button>
+<button  value="Bmw" class="Bmw">Bmw</button>
+<button  value="Honda" class="Honda">Honda</button>
+<button  value="Toyota" class="Toyota">Toyota</button>
+<button  value="Chevrolet" class="Chevrolet">Chevrolet</button>
+<button  value="Audi" class="Audi">Audi</button>
+<button  value="Nissan" class="Nissan">Nissan</button>
+<button  value="Kia" class="Kia">Kia</button>
+<button  value="Ford" class="Ford">Ford</button>
+<button  value="Hyundai" class="Hyundai">Hyundai</button>
+
+
+    </div>
+
+    <div class="cars-container container" id="cars-container">
+      </div>
+
+    <div id="car-details-container" class="car-details-container"></div>
+  </section>
+
+ <script src="main.js"></script>
+
+</body>
+</html>\

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Contact Us Page</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .error-message { color: red; margin-bottom: 15px; }
+    .success-message { color: green; margin-bottom: 15px; }
+  </style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Car sales BATRAN</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header>
+        
+        <div class="nav container">
+          
+            <i class='bx bx-menu' id="menu-icon"></i>
+        
+            <a href="#" class="logo"><h2>Car<span>Sales</h2></span></a>
+           
+            <ul class="navbar">
+              <li> <a href="../Home/index.html">Home</a></li>
+              <li> <a href="../CarList/index.html">Cars</a></li>
+                <li> <a href="../parts/index.html">Parts</a></li>
+              <li> <a href="../AboutUs/index.html">About</a></li>
+            
+              <li> <a href="../ContactUs/index.html"class="active">Our Blog</a></li>
+          </ul>
+        
+            <div class="loginBtn"><button type="submit" onclick="{window.location='../Login/index.php'}">Login</button></div>
+        </div>
+    </header>
+  <section>
+    
+    <div class="section-header">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Our team is here to help you find the perfect car. Visit our showroom, call, or send us a message. We're committed to providing top-notch service and support. Let's get you on the road with your dream vehicle—contact us today!</p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Address</h4>
+              <p>El-SHIKH ZAYED<br/> MEHWAR, MUST UNIVERSTY <br/>CAR SHOWROOM</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Phone</h4>
+              <p>+201091545743</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Email</h4>
+             <p>omarelbatran5@gmail.com</p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="contact-form">
+          <form action="https://formsubmit.co/omarelbatran5@gmail.com" method="post" id="contact-form" onsubmit="return validateForm()">
+            <h2>Send Message</h2>
+            <div id="form-message"></div>
+            
+            <div class="input-box">
+              <input type="text" id="name" name="name" >
+              <span>Full Name</span>
+            </div>
+            
+            <div class="input-box">
+              <input type="email" id="email" name="email">
+              <span>Email</span>
+            </div>
+            
+            <div class="input-box">
+              <textarea id="message" name="message"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            
+            <div class="input-box">
+              <input type="submit" value="Send" name="submit">
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+<script src="main.js"></script>
+</body>
+</html>

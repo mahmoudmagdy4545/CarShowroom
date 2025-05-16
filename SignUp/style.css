@@ -1,0 +1,70 @@
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../Login/sss.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h2{
+  font-size: 30px;
+}
+.signup-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 60px;
+  border-radius: 80px;
+  width: 100%;
+  max-width: 370px;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 30px 0 1px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #c40811;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.signup-container button:hover {
+  background-color: #45a049;
+}
+
+.signup-container p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+p.errors{
+  color: red;
+  font-size: 14px;
+  margin: 5px;
+  display: block;
+  text-align: left; 
+}
